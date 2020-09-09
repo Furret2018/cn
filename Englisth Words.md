@@ -15,6 +15,8 @@ technological change
 
 ![shouhutianxin ziya](http://ys-f.ys168.com/600447137/lpimmqq853T4H6G4XPH4/shouhutianxin-ziya.jpg)
 
+<img alt="" src="http://03e1181bba1cf.cdn.sohucs.com/files/3a1de6c201e249aeaa7a6b3f00d08567.jpg">
+
 
 
 
