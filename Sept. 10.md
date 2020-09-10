@@ -205,3 +205,282 @@ https://kb.avaya.com/kb/index?page=content&id=SOLN259741
 
 
 
+
+滑码 
+http://baike.eepw.com.cn/baike/show/word/%E6%BB%91%E7%A0%81
+http://www.txrjy.com/thread-87865-1-1.html
+https://wenku.baidu.com/view/46a6d5a924fff705cc1755270722192e453658ad.html
+
+
+
+
+
+
+
+
+客户投诉
+customer complaints
+http://dict.cnki.net/h_315140159.html
+https://www.wikihow.com/Deal-With-Customer-Complaints
+
+
+
+
+
+1-16315836422
+!!Offerred: The fan unit is part of the chassis in G430s and cannot be individually replaced like in a G450.
+
+
+
+
+
+1-16192944467
+
+Operational Skill Mobile Video Snap-in 
+Product MOB VID R3 VIDEO USER LIC 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://max.book118.com/html/2020/0424/8045114115002107.shtm
+
+https://www.jianshu.com/p/814852fd522b
+
+
+
+https://blog.csdn.net/babyangeltears/article/details/80111413
+
+https://me.bdp.cn/share/index.html?shareId=sdo_ab61226c2ce2f4f63afd36d04113e3dd
+
+https://www.imooc.com/article/284771
+
+
+
+
+https://www.wikihow.com/Deal-With-Customer-Complaints
+
+
+Supervisor and ACD 数量在主备机上要一致，且只要在Primary Server的OC上体现即可。
+https://kb.avaya.com/kb/index?page=content&id=FAQ100547
+
+
+
+
+SR Note: 
+CMS RTU support is based on OC PDF file and RTU request form.
+Partner shared them in attachment.
+So provide the support.
+
+
+
+outsource
+primer
+idle
+aisle
+alias
+
+trap
+travel
+journey
+courtesy
+
+flight
+freight
+
+right
+eight
+light
+
+verysource
+red alert
+
+promote
+prompt
+sray
+seagull
+insource
+insorce
+
+primely
+primitive
+primitvly
+
+
+relate, about, on
+reverse
+
+reverce?
+proxy
+insource, outsource
+
+
+
+
+moreover
+mainly
+most
+meanwhile
+middleware
+
+hence, so
+
+as per
+vest
+invest
+
+avator
+respective, corresponding
+
+issue, question, problem
+
+vain, lain, brain
+
+ownership, membership, friendship
+
+short, shorten
+got, gotten
+
+product, production
+
+alternative
+native
+active, activate, inactive
+
+terracotta
+
+
+https://huaban.com/boards/28151614/
+http://www-beta1.duitang.com/blog/?id=573047672
+https://www.duitang.com/blog/?id=667474891
+
+http://www-beta1.duitang.com/404/
+ampersand
+
+
+Natural
+
+Allitebook 
+R in action
+
+
+
+
+passion
+occasion
+case
+slation
+passive
+isle
+island
+
+pass
+past
+paste
+
+
+inactive
+active
+
+secure
+
+security
+post
+postgresql
+
+
+assert
+asset
+access
+
+
+snipper
+snippet
+
+instance
+instant
+coordinate
+immediately
+
+observed
+behalf
+
+corresponding
+suffering
+spreading
+
+coverage
+criteria
+series
+
+sanrotsu
+
+cream papio
+
+
+animation
+
+sololearn
+
+Syntax Surga
+
+handwritting
+
+UTA
+acceptance
+
+verysour
+sources.com
+
+preposition
+
+metal
+Crystal
+
+圆体英文手写
+
+
+python
+Flasky
+
+
+MySQL
+MongoDB
+
+装饰器
+迭代
+
+sqlite3
+Map 
+iterator
+Lambda
+
+
+overcome
+fear
+
+
+rest
+RESTful
+nowhere
+
+flawless
+
+nurazor
