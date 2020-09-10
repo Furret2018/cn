@@ -19,4 +19,9 @@ technological change
 
 
 
+*Sept. 10*
+> Revocation, revert
+retire
+
+because, cause
 
