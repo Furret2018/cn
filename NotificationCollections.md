@@ -68,3 +68,14 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
+*******
+```
+>>> C:/Users/gliu1586/Desktop/PortableGit/bin/git.exe commit -F C:/Users/gliu1586/AppData/Local/Temp/RtmpQHbQJD/git-commit-message-1dac4e121c38.txt
+fatal: Unable to create 'C:/Users/gliu1586/Desktop/DotA/DotA/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+```

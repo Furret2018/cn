@@ -32,7 +32,8 @@ mechanic [mɪ'kænɪk] 	"n. 技工，机修工 adj. 手工的 n. (Mechanic)人�
 Mechanism ['mek(ə)nɪz(ə)m]	n. 机制；原理，途径；进程；机械装置；技巧   
 
 
-
+amend, mend, append   
+modify, change   
 
 
 
