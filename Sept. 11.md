@@ -1,3 +1,9 @@
+https://blcdnsmall.nikkigames.cn/sdk/poster/nikki4web/suits/cuicanzhiyue/cuicanzhiyue.mp4
+
+http://tps.qq.com/act/a20141023baby/swf/df.swf
+http://xiaoicemedia.blob.core.chinacloudapi.cn/audio-public/wechat/WoShiXiaoBing_48K_20170815
+
+
 install.packages('blogdown')
 
 
