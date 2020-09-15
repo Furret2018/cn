@@ -53,6 +53,13 @@ Challenge
 
 hikari no onnpu
 
+> last, lastest
+at least   
+at last   
+Finally    
+in the end of   
+by the end of the day    
+the day after tomorrow   
 
 *****************************
 
