@@ -45,7 +45,12 @@ exporter
 *Sept. 15*   
 encounter   
 overcome   
-Challenge
+Challenge   
+
+hikari
+no
+onnpu
+
 
 *****************************
 
