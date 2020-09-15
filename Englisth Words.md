@@ -42,3 +42,7 @@ modify, change
 > export, import   
 exporter
 
+*Sept. 15*   
+encounter   
+overcome   
+Challenge
