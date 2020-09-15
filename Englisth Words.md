@@ -42,11 +42,17 @@ modify, change
 > export, import   
 exporter
 
+*****************************
+
 *Sept. 15*   
 encounter   
 overcome   
 Challenge
 > response, respond, responding 
+
+
+hikari no onnpu
+
 
 *****************************
 
