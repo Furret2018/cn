@@ -25,3 +25,20 @@ https://blog.csdn.net/yaosilani/article/details/77411218
 https://blog.csdn.net/woodcorpse/article/details/80721312
 
 https://github.com/rstudio/rstudio
+
+
+
+
+
+
+
+
+RStudio 1.2 Preview: C/C++ and Rcpp
+https://www.r-bloggers.com/rstudio-1-2-preview-c-c-and-rcpp/
+
+
+RStudio 1.2 Preview: C/C++ and Rcpp
+https://blog.rstudio.com/2018/10/11/rstudio-1-2-preview-cpp/
+
+R语言里调用C++
+https://blog.csdn.net/sanqima/article/details/50267953
