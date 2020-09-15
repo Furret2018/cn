@@ -35,7 +35,7 @@ Mechanism ['mek(ə)nɪz(ə)m]	n. 机制；原理，途径；进程；机械装�
 amend, mend, append   
 modify, change   
 
-
+*****************************
 
 *Sept. 11*   
 > Few, a few, little, a little
