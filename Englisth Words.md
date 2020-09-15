@@ -47,6 +47,7 @@ exporter
 *Sept. 15*   
 encounter   
 overcome   
+<<<<<<< HEAD
 Challenge
 > response, respond, responding 
 
@@ -62,6 +63,14 @@ by the end of the day
 the day after tomorrow  
 
 i ma
+=======
+Challenge   
+
+hikari
+no
+onnpu
+
+>>>>>>> dd6a69f024e14ad69a34e0d4dfef742bb36ee0e2
 
 *****************************
 
