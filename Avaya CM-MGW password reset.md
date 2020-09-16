@@ -123,3 +123,101 @@ https://kb.avaya.com/kb/index?page=content&id=SOLN280650
 G430/G450 - How to change/reset root password on G450 or G430 or G350 or G250
 https://kb.avaya.com/kb/index?page=content&id=ADMN105786
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+CM8.0: Not able to log into CM via ASA, SAT and web SMI is not loading. Only SSH login is working.
+https://support.avaya.com/ext/index?page=content&id=SOLN344395
+
+《TCP/IP入门经典》——网际层
+https://blog.csdn.net/Explorer_day/article/details/47053029
+
+
+
+TCP/IP入门经典 1.TCP/IP基础知识
+https://www.jianshu.com/p/6e3634c297d4
+
+
+
+
+drwxr-xr-x.  4 root root     33 May 13  2019 www
+
+
+except
+expect
+
+
+
+FQDN
+
+FQDN：(Fully Qualified Domain Name)全限定域名：同时带有主机名和域名的名称。（通过符号“.”）
+例如：主机名是bigserver,域名是mycompany.com,那么FQDN就是bigserver.mycompany.com。 [1] 
+全限定域名可以从逻辑上准确地表示出主机在什么地方，也可以说全域名是主机名的一种完全表示形式。
+从全限定域名中包含的信息可以看出主机在域名树中的位置。
+DNS解析流程：首先查找本机HOSTS表，有的直接使用表中定义，没有查找网络连接中设置的DNS服务器由他来解析。
+
+
+
+
+
+
+
+
+Joe Casad 著 井中月 译．TCP/IP入门经典：人民邮电出版社 ，2009
+
+
+Linux中的FQDN
+https://www.cnblogs.com/lipengyun168/p/10329596.html
+
+centos设置fqdn(全称域名)和hostname的方法
+https://www.jb51.net/article/47674.htm
+
+
+https://edu.51cto.com/center/course/lesson/index?id=140890
+
+
+
+DNS域名记录解析，域名和fqdn区别
+https://blog.csdn.net/weixin_44311721/article/details/95199259
+
+
+
+
+
+
+CM8.0: Not able to log into CM via ASA, SAT and web SMI is not loading. Only SSH login is working.
+https://support.avaya.com/ext/index?page=content&id=SOLN344395
+
+
+
+
+Communication Manager: Common Login Problems, detailed login information for services logins, web profiles etc., internally restricted.
+https://support.avaya.com/ext/index?page=content&id=SOLN120323
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
