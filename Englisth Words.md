@@ -65,3 +65,49 @@ i ma
 
 *****************************
 
+*Sept. 16*   
+
+Investigable 
+investable
+footprints  灾备 disaster recovery
+
+http://news.iciba.com/
+https://dict.zhuaniao.com/en/investigable/
+http://fy.tingclass.net/w/investigable
+
+
+
+SVN Check in 和 Check out 
+http://blog.sina.com.cn/s/blog_8e037f440101clcp.html
+
+
+
+check out
+check in
+
+
+too much 
+too many 
+too few
+too little
+too less
+
+unproper improper
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

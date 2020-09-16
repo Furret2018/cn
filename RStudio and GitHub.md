@@ -27,12 +27,6 @@ https://blog.csdn.net/woodcorpse/article/details/80721312
 https://github.com/rstudio/rstudio
 
 
-
-
-
-
-
-
 RStudio 1.2 Preview: C/C++ and Rcpp
 https://www.r-bloggers.com/rstudio-1-2-preview-c-c-and-rcpp/
 
@@ -42,3 +36,36 @@ https://blog.rstudio.com/2018/10/11/rstudio-1-2-preview-cpp/
 
 R语言里调用C++
 https://blog.csdn.net/sanqima/article/details/50267953
+
+
+
+
+
+
+
+
+*******************************************************
+
+```
+change content in local file without commit
+change directly on GitHub
+pull to see what happen?
+
+```
+
+> Git will 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
