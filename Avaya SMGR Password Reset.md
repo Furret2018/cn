@@ -4,7 +4,7 @@
 
 You can directly EASG the ***init*** password via page below :    
 ```
-https://<your-SMgr-ip-adddress>/securityserver/chap-ui/services-login.html
+https://<*your-SMgr-ip-adddress*>/securityserver/chap-ui/services-login.html
 ```
 
 
