@@ -104,6 +104,17 @@ Invalid credentials
 
 
 
+******************************************
+
+*Sept. 18th*
+
+absent
+demand
+amend
+recommand
+
+
+
 
 
 
