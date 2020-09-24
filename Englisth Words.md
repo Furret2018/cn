@@ -115,13 +115,32 @@ recommand
 
 
 
+******************************************
+
+*Sept. 24th*
+
+Compositor   
+regular inspection    
+estimate    
+bare metal  网络	裸金属; 裸机; 裸核  
+https://exp.newsmth.net/topic/d7014821597fdc8adab83117b3dc30a7
+
+ streamlined    
 
 
+capacity        
+conversion factor
+constraint
+
+depict
 
 
+阿基拉和拼字比赛
 
-
-
+retain    
+preserve
+remain 
+subsequent    
 
 
 
