@@ -62,17 +62,8 @@ CMS: What platforms/servers support R18 CMS?
 https://support.avaya.com/ext/index?page=content&id=FAQ112871
 
 
-
-
-
-
-
 AVP 7.X: HP DL360Gen 7 shows Degraded on the ESxi host
 https://support.avaya.com/ext/index?page=content&id=SOLN344438
-
-
-
-
 
 
 ASP 130 or 120 and generating vm-support bundle for log collection
@@ -86,22 +77,11 @@ Avaya Equinox® Solution Guide for Medium to Large Enterprises *2020 July*
 https://downloads.avaya.com/css/P8/documents/101045454
 
 
-
-
-
-
 ASP 130 or 120 and generating vm-support bundle for log collection
 https://support.avaya.com/ext/index?page=content&id=SOLN352453
 
-
-
-
-
 Using ODBC and JDBC with Avaya Call Management System *2020 May*
 https://downloads.avaya.com/css/P8/documents/101064962
-
-
-
 
 Military Unique Deployment Guide - SBCE R8.1 *2020 Jan*
 https://downloads.avaya.com/css/P8/documents/101063505
