@@ -8,8 +8,6 @@ output: html_document
 Your Global Handle    
 PCN 密碼： Power@2020
 
-
-
 ***********************************************
 
 ## Avaya PCN 2037H
