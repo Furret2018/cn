@@ -38,7 +38,16 @@ info <- "
     0) control      C:/Windows/System32/control.exe
 "
 cat(info)
+
+Choice <- 1
 choice <- input()
 cat(choice)
 command <- convert(choice)
 shell.exec(command)
+
+
+
+switch(choice, 
+    command <- convert(choice)
+)
+

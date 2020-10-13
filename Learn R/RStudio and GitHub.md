@@ -7,8 +7,6 @@ https://www.jianshu.com/p/b33dc9d994a9
 
 
 https://www.cnblogs.com/zhaolide/p/9946877.html
-
-
 https://www.pianshen.com/article/7643954713/
 
 
@@ -40,7 +38,7 @@ https://blog.csdn.net/sanqima/article/details/50267953
 
 
 
-
+credentialhelperselector
 
 
 
@@ -58,8 +56,12 @@ pull to see what happen?
 
 
 
+************************************************
+
+# RStudio addins
 
 
+https://www.r-bloggers.com/2020/01/rstudio-addins-or-how-to-make-your-coding-life-easier/
 
 
 
