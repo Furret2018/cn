@@ -15,7 +15,7 @@ Go to the Parts activity tab and use the Admin Cancel Order Button.
 - The Admin Cancel Order Button can be used after the order has been submitted (Submit Order is button greyed out).
 - The Cancel Order Button can be used if cancellation is requested before submitting the order (Submit Order button is NOT grayed out).
 
-<img alt="Action in Siebel" src="images/ActioninSiebel.jpg" />
+<img alt="Action in Siebel" src="images/actioninsiebel.jpg" />
 
 ## Control Tower
 
