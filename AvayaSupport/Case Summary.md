@@ -37,15 +37,6 @@ SR#1-16312410997 | DBS call route to wrong number
 **************************************************
 
 
-
-ananzaijiama?17
-
-
-
-
-
-
-
 Your Global domain account has been unlocked and the password has been successfully reset.
 
 
@@ -60,9 +51,13 @@ Customer can install MS patches/updates as released. sent an article to follow b
 
 
 
+*******************************************************
+
+Create a CA to IPTCM team (ES_IPTCM) and clear the issue from PostgreSQL database.
 
 
-
+********************************
+AWFOS   
 
 
 

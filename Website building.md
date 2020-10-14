@@ -16,6 +16,7 @@ https://blog.51cto.com/zpf666/1917253
 
 
 
+https://stackoverflow.com/questions/52558238/image-file-not-found-from-url-in-r-markdown
 
 
 

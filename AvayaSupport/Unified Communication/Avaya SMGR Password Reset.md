@@ -8,7 +8,7 @@ https://<*your-SMgr-ip-adddress*>/securityserver/chap-ui/services-login.html
 ```
 
 
-
+Users > Administrators > Administrative Users
 
 
 *************************************************************
@@ -20,3 +20,9 @@ https://<*your-SMgr-ip-adddress*>/securityserver/chap-ui/services-login.html
   
 + SMGR 8.1:GUI Access using FQDN fails but access using IP works
   https://kb.avaya.com/kb/index?page=content&id=SOLN346684
+
+
+
+
+
+

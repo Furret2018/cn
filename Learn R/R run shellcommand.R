@@ -24,25 +24,31 @@
 cmd <- "C:/Users/gliu1586/Desktop/GreenSW/AnyDesk.exe"
 runNJStarj <- "C:/Users/gliu1586/Desktop/GreenSW/NJStar Japanese WP/NJStarj.exe"
 
-info <- "
-    Please select: 
+info <- "Please select :
     1) Anydesk
     2) NJstarj
     3) Taskmgr
-    4) Putty        C:/Users/gliu1586/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Putty/putty.exe
-    5) Putty        C:/Program Files (x86)/PuTTY/putty.exe
+    5) 
     6) SnippingTool C:/Windows/System32/SnippingTool.exe
     7) screensaver  C:/Windows/System32/Ribbons.scr
     8) calc         C:/Windows/System32/calc1.exe
     9) charmap.exe  C:/Windows/System32/charmap.exe
     0) control      C:/Windows/System32/control.exe
+    
+    a) PowerShell   C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe
+    b) YoudaoDict   C:/Users/gliu1586/Desktop/GreenSW/Youdao/Dict/Application/YoudaoDict.exe
+    c) EquinoxAPP   C:/Program Files (x86)/Avaya/Avaya Equinox/Avaya Equinox.exe
+    d) WinSCP       C:/Program Files (x86)/WinSCP/WinSCP.exe
+    e) Putty        C:/Program Files (x86)/PuTTY/putty.exe
 "
+
 cat(info)
 
 Choice <- 1
 choice <- input()
 cat(choice)
 command <- convert(choice)
+command <- 'C:/Program Files (x86)/Avaya/Avaya Equinox/Avaya Equinox.exe'
 shell.exec(command)
 
 

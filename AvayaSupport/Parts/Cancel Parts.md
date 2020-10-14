@@ -23,7 +23,7 @@ Go to the Parts activity tab and use the Admin Cancel Order Button.
 
 Go to the ***To be allocated tab*** and mark the request you want to cancel. In the right corner on the window, a Trash can button will appear, which will allow you directly to remove the Cancelled order.
 
-<img alt="Action in Siebel" src="images/actioninct.jpg" />
+<img alt="Action in Control Tower" src="images/actioninct.jpg" />
 
 Test local image
 !["ddd"](images/actioninct.jpg)
