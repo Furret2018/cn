@@ -39,13 +39,13 @@ output: html_document
 
 | item                      | value |
 | :---:                     | :---  |
-| **Delivery Site Address** |  No.22,ChungShan N. Rd., 3rd Sec. |
+| **Delivery Site Address** |  No.22, ChungShan N. Rd., 3rd Sec. |
 | **[Company]**             |  Tatung System Technologies Inc. |
-| **State/City**            |  Taipei City  |
-| **Postcode**              |  104   |
+| **State/City**            |  New Taipei City  |
+| **Postcode**              |  112   |
 | **Country**	              |  Taiwan  | 
 | **Contact Name**	        |  Sylvia Huang  | 
-| **Contact Phone Number**  |  '+886-2-55625699 |
+| **Contact Phone Number**  |  +886-2-55625699 |
 | **Contact Email** 	      |  sylvia.huang@etatung.com    | 
 
 
