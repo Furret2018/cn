@@ -2,7 +2,9 @@
 title: "Cancel Part Request in Siebel and Control Tower"
 author: "liu300@avaya.com"
 date: "10/14/2020"
-output: html_document
+output: 
+  html_document:
+    pandoc_args: ["--extract-media", "."]
 ---
 
 > when an order needs to be canceled due to specific reasons in Siebel and CT, please follow the steps below.
@@ -21,3 +23,7 @@ Go to the Parts activity tab and use the Admin Cancel Order Button.
 
 Go to the ***To be allocated tab*** and mark the request you want to cancel. In the right corner on the window, a Trash can button will appear, which will allow you directly to remove the Cancelled order.
 
+<img alt="Action in Siebel" src="images/actioninct.jpg" />
+
+Test local image
+!["ddd"](images/actioninct.jpg)
