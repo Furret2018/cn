@@ -26,4 +26,4 @@ Go to the ***To be allocated tab*** and mark the request you want to cancel. In 
 <img alt="Action in Control Tower" src="images/actioninCT.jpg" />
 
 Test local image
-!["ddd"](images/actioninct.jpg)
+!["ddd"](images/actioninCT.jpg)
