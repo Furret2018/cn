@@ -1,58 +1,23 @@
-
-
-
-
-
 # Ruby
 
-
-
-
-
 http://www.allitebooks.com/the-druby-book/
-
-
-
-
 
 http://file.allitebooks.com/20150515/The%20dRuby%20Book.pdf
 
 http://img105.job1001.com/upload/adminnew/2015-04-18/1429345520-IAYYBZD.pdf
 https://github.com/saladinreborn/latihangit/tree/master/Buku%20GIT
 
-
-
-
-
 http://yuceer.net/s/Software/Pragmatic_Pragmatic_Version_Control_Using_Git_Dec_2008.pdf
-
-
-
 
 https://www.slideshare.net/confoo/pragmatic-guide-to-git
 
-
-
-
 https://mbd.baidu.com/newspage/data/landingsuper?context=%7B%22nid%22%3A%22news_9846057318745448012%22%7D&n_type=1&p_from=4
-
 
 https://mbd.baidu.com/newspage/data/landingsuper?context=%7B%22nid%22%3A%22news_9306819102285781490%22%7D&n_type=1&p_from=4
 
 https://mbd.baidu.com/newspage/data/landingsuper?context=%7B%22nid%22%3A%22news_9279458914959189847%22%7D&n_type=1&p_from=4
 
-
-
-
-
-
-
 https://mbd.baidu.com/newspage/data/landingsuper?context=%7B%22nid%22%3A%22news_9601966682266655095%22%7D&n_type=1&p_from=4
-
-
-
-
-
 
 https://mbd.baidu.com/newspage/data/landingsuper?context=%7B%22nid%22%3A%22news_9139775269936619462%22%7D&n_type=1&p_from=4
 
