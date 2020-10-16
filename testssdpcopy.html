@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+  
+    <body>
+        <br>
+        <br>
+        <br>
+        <div align="center"><h3>EASG Web Mobile Response</h3></div>
+    
+        <table align="center" >
+
+ 	        <tr>
+                <td align=right> Product ID: &nbsp</td>
+                <td align=left> 8e8120857e94401495d35b3af22953dc01
+ </td>
+ 	        </tr>
+            <tr>
+                <td align=right> Login Name: &nbsp</td>
+                <td align=left> init
+</td>
+            </tr>
+            <tr>
+                <td align=right> Challenge: &nbsp</td>
+                <td align=left> 10019-16402639 
+ </td>
+            </tr>
+            <tr>
+                <td align=right> Key Version: &nbsp</td>
+                <td align=left> 0
+ </td>
+            </tr>
+            <tr>
+                <td align=right>Response: &nbsp  </td>
+                <td align=left>
+                    <b>
+                    <textarea onmouseover="textAreaAdjust(this)" class="js-copytextarea">QBojfzQZenYjphZrzsRTwioKYbzHijnx3qjTucmvmxuas4Bunq43GkMfjzPqrs5yheJEugeCdUZKMBHgMuc94JLx4NjVu5Bp8EAnL4iB9wVfwz2iMbfmsNJGzGsb4WNZh5A1wfNjJdPSSfZrNZaCarNUe4YCqthE2QCP9t9VpaVcyHjDpPH1XbmavubsKUZRES8NJTDd2JjuMuxgWVstynFMXK1wgS1X3sF2zwgsSLN4WzqonUyEfQfs35kAd2XqMhyt6vMbrCcfkTnYonyTk7wAR1PXibb3EtBQCU9AdBeUNEPP7shdrJyWiYd1XZiTDVNgYikcjRxxuNkLz3dQkUnUsM4ZgMwyAAYXvRs</textarea>
+                    </b>
+                </td>
+            </tr>
+            <tr>
+                <td align=right>&nbsp</td>
+                <td align=left></td>
+            </tr>
+            <tr>
+                <td align=center colspan="2">
+                    <button class="js-textareacopybtn">
+                    Copy Response to Clipboard
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td align=right>&nbsp</td>
+                <td align=left></td>
+            </tr>
+
+        <tr>
+            <td align=center colspan="2">
+                Please ensure the Putty version is greater than 0.63 while using this feature
+            </td>
+        </tr>
+
+        </table>
+
+        <script type="text/javascript">
+            var copyTextareaBtn = document.querySelector('.js-textareacopybtn');
+
+            copyTextareaBtn.addEventListener('click', function(event) {
+                var copyTextarea = document.querySelector('.js-copytextarea');
+                copyTextarea.select();
+
+                try {
+                    var successful = document.execCommand('copy');
+                    var msg = successful ? 'successful' : 'unsuccessful';
+                    out.println(msg);
+                    console.log('Copying text command was ' + msg);
+                } catch (err) {
+                    FAILED
+                    console.log('Oops, unable to copy');
+                }
+            });
+
+            function textAreaAdjust(o) {
+                o.style.height = "1px";
+                o.style.height = (25+o.scrollHeight)+"px";
+            }
+
+        </script>
+
+        <br>
+        <br>
+
+        <a href = "http://ssdp.us1.avaya.com:80/ASG_WebMobile/index.jsp">  Go back  </a>
+    </body>
+</html>
