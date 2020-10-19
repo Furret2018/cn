@@ -53,48 +53,16 @@ Rpublisher
 Furret2020
 same to ciao@gamil.com
 
-
-
-
-
-
-
-
-
-
-
 https://www.duitang.com/album/?id=87602478&spm=2014.12553688.202.0
 https://www.duitang.com/album/?id=88106280&spm=2014.12553688.202.0
 https://www.duitang.com/album/?id=70177280&spm=2014.12553688.202.0
 https://www.duitang.com/blog/?id=793235017
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Avaya Aura® Release Notes https://downloads.avaya.com/css/P8/documents/101058326
 As of 8.1.2, customers utilizing AVP or VMware based systems are able to activate disk encryption during OVA installation. 
 EASG
 Fixes (ID, Minimum Conditions, Visible Symptoms, Release found in)
-
-
-
-
-
-
 
 
 Hi All,

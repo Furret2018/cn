@@ -13,7 +13,10 @@ Content
 
 
 
+# Links
 
+VPN入口	: Support.avaya.com/ara
+MPA查合同 : https://partner.avaya.com/ptlWeb/mpa/
 
 
 

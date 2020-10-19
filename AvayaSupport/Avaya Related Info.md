@@ -1,17 +1,6 @@
 # Avaya Related info
 
 
-
-# Links
-
-
-VPN入口	: Support.avaya.com/ara
-MPA查合同 : https://partner.avaya.com/ptlWeb/mpa/
-
-
-
-******************************
-
 SAP tool path: 
 ```
 C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe
