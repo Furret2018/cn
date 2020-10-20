@@ -1,3 +1,18 @@
+*************************************************
+# FQA:
+
+> Open Visual Basic Editor
+
+Alt+F11 打开VBE写代码    
+打开开发者菜单，点View Code      
+
+> Macro Record
+
+录制宏在 开发者菜单， Record Macro
+
+************************************************
+
+
 # vba编写excel插件
 
 http://www.360doc.com/content/18/0426/22/32695326_749025055.shtml
@@ -14,8 +29,6 @@ https://blog.csdn.net/weixin_30655219/article/details/96629210
 
 
 
-Avaya Aura System Manager: Password Reset For System Manager GUI/CLI/SSH
-https://support.avaya.com/ext/index?page=content&id=SOLN288920
 
 
 
@@ -25,17 +38,6 @@ https://support.avaya.com/ext/index?page=content&id=SOLN288920
 
 
 
-Alt+F11 打开VBE写代码
-
-打开开发者菜单，点View Code
-
-
-
-
-录制宏在 开发者菜单， Record Macro
-
-
-R1C1
 
 
 
@@ -43,7 +45,6 @@ R1C1
 
 
 
-https://www.csdn.net/
   
   
   

@@ -10,6 +10,9 @@ Skill List
 - Run application that blocked by IT
 
 
+*********************************************************************
+
+
 > Open new session in IE
 
 Two methods to open a new session in IE
@@ -31,6 +34,9 @@ Now you can click the link to open a new IE window.
 Note:     
 The path of IE `C:\Program Files\internet explorer\iexplore.exe`
 
+
+
+*********************************************************************
 
 > Run application that blocked by IT
 
