@@ -3,7 +3,7 @@
 
 
 Dear Team,
-Thank you for creating SR#1-16949933001 with Avaya!
+Thank you for creating SR#1-16949741792 with Avaya!
 My name is Jack and I will be managing this request for you. I have provided my contact information in my signature below for your convenience. My plan at this time is Monday - Friday 9:00AM - 6:00PM (GMT +08:00). 
  
 Our goal is to provide you best-in-class service therefore I would like to send you regular updates. You can expect my next update through liu300@avaya.com within / by 48hours]. 
@@ -14,6 +14,44 @@ Best regards,
 Jack
  
 Jack Liu | Service Desk | Avaya | B3-23 Creative Industry Park | 328 Xinghu Street SIP, Suzhou 215000 China | +86-512 - 62601406 | liu300@avaya.com | avaya.com
+
+
+
+
+
+我们有一台g650的风扇面板坏了需要更换，请参考这个case的处理过程并提供备件，
+SR#1-14854855788
+1-14737671173   700394398 AVAYA G650 MEDIAGATEWAY BACKPLANE (fan assembly)
+
+1-16951508803
+
+
+
+700394398  G650 FAN UNIT ASSY RHS
+AVAYA G650 MEDIAGATEWAY BACKPLANE (fan assembly)
+
+Faulty DESC: G450 FAN not running
+
+G650后置风扇面板故障，风扇不转。
+
+Recipient Info:
+To: Rua Cidade de Sintra,NAPE,Macau 澳门外港填海区仙德丽街
+Company: Planet1world
+Contact Person Jidong Pan
+Mobile Number 853-65626648 
+Email Address jidong.pan@planet1world.com
+
+
+
+
+PN# 700506773 HDD 300GB 10K 
+
+
+
+
+
+
+
 
 
 
