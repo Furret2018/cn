@@ -1,17 +1,34 @@
 # Avaya System Manager Password reset
 
+In a ticket, BP mentioned: he ever sew BBE EASG the init passwd to reset the admin account.    
+we checked the URL BP provided, and get the quick method to reset the admin password.
+
+> Step to reset the webpage admin account
+
+1. You can directly EASG the ***init*** password via page below :   
+`https://<your-SMgr-ip-adddress>/securityserver/chap-ui/services-login.html`
+2. in SMGR dashboard webpage, click the menu
+`Users > Administrators > Administrative Users > click admin > input new pwd and re-enter > commit`
+3. Close broswer, reopen browser, in normal login webpage, click the password reset. Give the new password, and set a password again 
+4. Close broswer, reopen browser, in normal login webpage, you can use the last set password for login.
 
 
-You can directly EASG the ***init*** password via page below :    
-`https://<*your-SMgr-ip-adddress*>/securityserver/chap-ui/services-login.html`
+**More Info:**
+
+Search the URL in KB with keyword "chap-ui", we found the following KB:
+
+```
+SMGR 8.1:GUI Access using FQDN fails but access using IP works
+https://kb.avaya.com/kb/index?page=content&id=SOLN346684
+
+SMGR: Alarm - Problem to get the peer System Manager heartbeat,MAJ
+https://kb.avaya.com/kb/index?page=content&id=SOLN235706
+```
+
+**Successful Cases:**
+SR#1-16951567132 [SGMR 8.0 password reset]
 
 
-Users > Administrators > Administrative Users > click admin > input new pwd and re-enter > commit
-
-Close broswer, reopen browser, in normal login webpage, click the password.
-give the new password, and set a password again 
-
-Close broswer, reopen browser, in normal login webpage, you can use the last set password for login.
 
 
 *************************************************************
