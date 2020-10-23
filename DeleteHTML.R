@@ -18,6 +18,13 @@ isDeleterinRoot()
 
 
 
+library(digest)
+
+x <- digest("Hello", algo="md5")
+x
+
+
+
 
 
 

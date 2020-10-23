@@ -114,9 +114,165 @@ When call volumes go up, agents are re-assigned to handle inbound calls. Through
 
 For instance, if a customer receives an automated outbound voice contact and shows a specific response, the contact can be escalated to an agent-based call, or a confirmation email or SMS can be sent automatically, depending on the context and content of the customer contact.
 
+***********************************************
+# Cammpaigns
+
+- Module Objectives
+- Campaign Overview
+
+- Contact List
+- Completion Codes
+- Campaign Strategies
+- Campaign Restrictions
+- Campaign Manager
+- Rule Editor and Call Back Manage
+
+### Module Objectives (2 of 3)
+Upon successful completion of this module, you will be able to:
+
+- describe the POM attributes, 
+- prepare a contact list, 
+- apply the Do Not Call list, 
+- set up a campaign strategy for agent-less and agent- based campaigns. 
+
+- apply campaign restrictions, 
+- describe Campaign Manager, 
+- apply the Rule Editor
+- describe POM Callbacks.
+
+### Campaign Overview (3 of 3)
+A campaign delivers a specific message to all customers in the database through selected
+channels such as email, SMS, and voice.
+
+Here, we see the major components of a campaign.
+
+First, we start with a contact list, which is imported from a database or from a CSV file. Once the contact list has been imported, we then create strategies. 
+The strategy is a mandatory component of the campaign.
+
+This is where you define the actions that take place during the campaign. This is where you select a notification channel such as voice, email or SMS for the contact list. 
+Once the campaign has started, you can use POM Monitor to manage the campaign’s progress and to make adjustments to the running campaign.
+
+When the campaign ends, you can run reports on the outcome of the campaign and finally, there is the post-processing where the results of the campaign can be sent back to the backend systems.
+
+
+
+### Contact List
+
+Lesson Objectives  (2 of 18)
+Upon successful completion of this lesson, you will be able to 
+
+- prepare the contact list for dialing, 
+- apply the attributes to the calling list, 
+- create a Do Not Call (DNC) list.
 
 
 
 
+
+
+### Rule Editor and Call Back Manage
+
+##### Lesson Objectives
+Upon successful completion of this lesson, you will be able to 
+
+- apply the Rule Editor 
+- describe the Callback Manager.
+
+
+##### Rule Editor (3 of 6)
+
+The Rule Editor enables you to configure rules that restricts the outreach attempts based on the contact or the number of attempts, channel, last attempt completion code or nuisance frequency. The Rules page displays the rules configured in the system. There are two preconfigured default rules which are 72 hours nuisance and 24 hours AMD.
+
+Let’s examine the preconfigured 72 hours nuisance rule.
+Here the Channel Type is voice and the Exclude if current attempt type is Preview, Callback, Redial, and External Consult. The Rule Category is set at Nuisance Frequency with the number of nuisance calls set at 1 and the duration is set at 72 hours before a re-attempt can be made.
+
+All phone addresses are included in this restriction and finally the completion code is set to Restricted by 72 hours nuisance.
+
+
+
+
+
+##### Demo 32 - Creating a New Rule
+##### Call Back Manager
+##### Lesson Summary
+
+
+
+
+
+
+
+
+
+***********************************************
+
+# POM Monitor and Historical Reports
+
+### Module Objectives
+Upon successful completion of this module, you will be able to 
+
+- apply the POM Monitor to view real-time campaign statistics, 
+- prepare a standard report, 
+- describe the custom reports, 
+- set up a report schedule.
+
+
+3,4 of 10 lost
+
+
+
+Campaign Details : Campaign View , Contact List View, Completion Code View, Email Task View
+Campaign Progress Chart
+
+Active Campaign
+Active Agent
+License Summary
+Inbound Skills
+Active DNC Imports
+Active Data IMports
+
+
+
+### POM Standard Reports  (5 of 10)
+POM standard historical reports are generated through the Experience portal’s web console. There are 24 preconfigured POM standard reports. There are reports for agents, call backs, campaign, completion code, contact lists, DNC, and nuisance calls.
+
+Let’s take a closer look at the POM Agent Campaign Summary report.
+There are three date and time options that you can use to generate your reports. The predefined values allow you to choose from the drop down; all dates and times, today, yesterday, this week, last week, this month, and last month. 
+
+You can choose the last number of days or hours and you can choose between a specific start date and time and a specific end start date and time.
+The optional filters are shown below.
+Here is the sample standard report for the POM Agent Campaign Summary.
+
+
+6, 7 of 10 lost
+
+Voice Attempts - Red
+SMS Attempts - Blue
+Email Attemps - Green
+Customer Attemps - yellow
+Nuisance Calls in Pink
+Agent Handled Calls
+Callbacks Scheduled 
+Callback Expired
+
+
+
+
+### POM Scheduled Report (8 of 10)
+For scheduling POM reports, you select a date, time, and frequency. The options here are one time date and time, hourly, daily, weekly, and monthly.
+
+Select a report date and time and select a notification method and output. You can send the notification of the report and the report to multiple email addresses. POM custom reports is able to update a RSS feed and can generate an event.
+
+We can only have the report generated on a specific threshold restriction. There are three report output types; xls, pdf, and CSV.
+
+
+
+### Module Summary
+You should now able to apply the POM Monitor to view real-time campaign statistics, prepare a standard report, describe the custom reports, and set up a report schedule.
+
+
+
+### Goodbye (10 of 10)
+Thank you for your time and attention to this course. Please close this window to exit the course.
 
 

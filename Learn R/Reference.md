@@ -5,6 +5,19 @@ output: html_document
 - https://www.r-project.org/
 
 
+Grep 
+
+Global Regular Expression Print 
+
+awk, sed ,grep
+https://www.math.pku.edu.cn/teachers/lidf/docs/Rbook/html/_Rbook/index.html
+https://max.book118.com/html/2018/1025/5303044100001323.shtm
+https://zhuanlan.zhihu.com/p/121442815
+
+https://www.open-open.com/pdf/305f11b308a2485d962f12e0b2222256.html
+- https://blog.csdn.net/piaoyu94/article/details/76633818
+
+
 - https://www.zhihu.com/question/21654166/answer/38389863 该如何学习 R 语言？
 - https://www.zhihu.com/question/346865819 如何快速学会R语言？
 - https://www.w3cschool.cn/r/ R语言 教程
