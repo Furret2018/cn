@@ -14,7 +14,7 @@
   
 **************************************************************
 
-# Welcome to Course
+## Module 01 Welcome to Course
 
 - Courese Objective
 - Introduction to the Course
@@ -44,13 +44,594 @@ After completing this course, you should be able to:
 **************************************************************
 
 
-# Features and Capabilities
+## Module 02 Features and Capabilities
 
-Module Objectives
+- Module Objectives
+- Automatic Call Distribution
+- What is Call Center Elite?
+- Call center Feature Overview
+- Basic Call Flow Example
+- Call Center with Expert Agent Selection
+- Moudule Summary
+
+### Module Objectives
 At the end of this module, you should be able to:
+
 - Define Automatic Call Distribution,
 - Describe the features and capabilities of call centers using Avaya Aura® Communication Manager 
 - describe the call center functions for Avaya Aura Call Center Elite.
+
+### Automatic Call Distribution
+
+When customer calls arrive, they are delivered to the ACD, which routes a large volume of incoming calls to a pool of waiting agents.
+
+ACD makes use of telephone queues instead of directing calls to specific telephone extensions. A queue acts as a waiting room for callers.
+
+ACD has a number of important capabilities.
+
+*Announcements or delay messaging* are recordings that greet the caller and can provide useful information about your company, products, services, or even promotions.
+
+*Music on hold* plays between delay messages. The objective of the music is to encourage customers to wait for the next agent and to make the waiting more pleasant.
+
+*Skills-based routing* is used to match the needs of each caller with the agent who has the best skill set out amongst the agents who are available to take the call.
+
+### What is Call Center Elite?
+But, what is Call Center Elite?
+Call Center Elite is the software that includes basic call center features, such as call vectoring as well as more advanced features such as *Expert Agent Selection and Business Advocate.*
+
+*Expert Agent Selection or EAS* helps provide the best possible telephone service to callers by matching a caller’s needs with the skills or talents of the agents. Customer satisfaction increases by matching callers’ needs with agent skills.
+
+Customers have the flexibility to purchase only the licenses for the agents needed today. As the business grows and requires more agents, the customer simply purchases additional agent licenses.
+
+*The number of concurrent agents* is no longer limited by the software. The only limitations for concurrent agents are the size and capabilities of the server used for the Communication Manager.
+
+### Call Center Features Overview
+
+Let´s take a look at some call center features.
+Click each button to learn more about it.
+
+> Call center features
+> Agent Call handling
+> Agent features
+> Hunt group/split/skill
+> Vector 
+> Vector directory number (VDN)
+> Monitor and measure
+
+
+Avaya Aura® Call Center Elite can help customers design and customize the software to meet operational and business goals:
+
+    What kind of calls does the call center receive?
+    What types of calls will agents handle?
+    How will calls be distributed to agents?
+    How will customers be treated when they enter the call center?
+    What information about the call will be displayed to help agents be more efficient and effective in serving customers?
+    How can call center activities be monitored, measured, and adjusted to lower costs and improve customer satisfaction?
+
+One of the Call Center Features is Agent Call Handling. An agent can receive ACD calls and, in some cases, non-ACD calls.
+
+    Calls distributed to an agent’s telephone by the ACD feature of the Communication Manager are considered ACD calls.
+    Calls directly to an agent’s telephone are considered non-ACD calls (except for EAS Direct Agent calls).
+
+Agents handle calls in one of two ways:
+
+    Auto-In – When a call is completed, the agent immediately becomes available for the next call. Can also be administered to enter ACW for a period of time (Timed After Call Work) and then be returned to Available.
+    Manual-In – The agent is given some time after the call to perform some ACD-call-related function (for example, to complete a CRM form).
+    Agent enters the After Call Work State until ready to become available for the next ACD call or until the Timed After Call Work period expires.
+
+Let´s take a look at Agent features. Agents log on to skills to receive ACD calls.
+
+    Abbreviated dial buttons are administered with the feature access codes that allow login.
+
+Once logged in, feature buttons allow agents to change states. For example, at break time, the agent might move from the Available State to the Aux-Work (unavailable) state. Agent states include:
+
+    Aux-Work – Become unavailable for ACD calls.
+    Auto-In – Press one time at login and receive ACD calls until entering another work mode (for example, Aux-Work or Logout) to become unavailable.
+    Manual-In – Press at login and after completing the ACW associated with a call.
+    And
+    ACW – After call work or wrap-up time associated with an ACD call.
+
+An EAS agent logs in using the following steps:
+
+    Dial the login feature access code or press the abbreviated dial button to which the login code has been assigned.
+    After hearing dial tone, the agent enters his or her login ID and password (if required).
+    The agent enters the Aux-Work state and presses either Auto-In or Manual-In to become available for an ACD call.
+
+Another Call Center features is Hunt group, split, or skill. Hunt groups are traditionally a group of extensions that are created to handle calls in an ACD environment.
+
+    The ACD processes incoming, outgoing, and internal calls and distributes them to these hunt groups known as splits.
+
+When using Expert Agent Selection (EAS) software, logical agent hunt groups are referred to as skills.
+
+    An agent’s login ID is assigned skills.
+    When agents log into the system, they will receive calls for their administered skills.
+
+Vector is another important call center feature. A call vector is a series of commands that tell the system how to handle incoming calls.
+
+    A vector can contain up to 99 steps to allow for customized call routing and call treatment.
+    Vectors process incoming and internal calls according to a programmed set of commands.
+
+Commands may direct calls to any hunt group, split, or skill, or to a specific call treatment such as an announcement, forced disconnect, forced busy, or delay.
+Vectors can route calls to on-network or off-network destinations, self-service applications, voice mail systems, and computer telephony integration (CTI) applications (using an Adjunct Switch Application Interface).
+
+A vector directory number or VDN is another important call center feature.
+Calls access vectors using Vector Directory Numbers.
+
+    A vector directory number is a soft extension number that does not have an equipment location.
+    The VDN points to a vector which defines the service required by the caller.
+    Data and statistics about call processing and agent handling through the VDN are sent to reporting systems.
+    Any number of VDNs can point to the same vector.
+    The same sequence of treatments can be given to calls that reach the system from different number of locations.
+
+You can monitor calls in real-time as a supervisor, or use the reporting applications to investigate call center activities and improve results.
+In real-time:
+
+    The Service Observe feature allows supervisors to monitor calls to assess agent performance.
+    Real-time reports from reporting systems provide up-to-the-minute statistics about the call center operations.
+
+Historically:
+
+    Avaya reporting applications provide information about the activities in the last hour, day, week, and month, and allow the center to make changes based on data and compare results.
+
+Avaya Call Center reporting packages include:
+
+    Basic Call Management System (BCMS), which is internal to the Call Center software and available at no additional charge.
+    Call Management System (CMS), which is an add-on reporting application.
+    Avaya Aura Performance Center or IQ, which is another add-on reporting application.
+    The number of SIP trunks that can be measured is increased from 24,000 to 30,000.
+
+ 
+### Basic Call Flow Example
+
+Here is a basic call flow example:
+A caller dials the phone number associated with the call center.
+
+The call enters the Communication Manager/Call Center Elite environment by way of the PSTN through trunks.
+
+The trunks connect switching centers, such as central offices and PBXs.
+
+The vector directory number or VDN is used for routing calls; for example, a call comes in on VDN 50032.
+
+The Call vector is a set of routing instructions the call follows; for example, queue to skill group, play an announcement, followed by music.
+
+The Skill group is assigned to a group of agents with common product knowledge or language capability. The vector will reference the skill and queue calls to it. For example, to skill 32.
+
+The Agents are assigned to skill groups, and logging on to a phone identifies them as qualified to answer calls of a specific skill requirement.
+
+The skills-based routing is responsible for matching the caller who has a particular requirement with the agent who has expertise with this requirement, such as product knowledge, language skill, and so on. In this example, all three of these agents are logged in to skill group 32–so the call can be presented to any
+one of them.
+
+
+### Call Center with Expert Agent Selection
+
+The graphic shown here is a very simplified example of a call center design for Call Center Elite. Later, we’ll build on this design to create more complex call centers.
+
+The local customer calls a toll free number to reach the Stalwart Insurance Call Center Customer Service Department.
+
+From the PSTN, the call is routed to trunks in the Communication Manager. From that trunk group, calls are routed to VDN 50232 which is assigned to Vector 110.
+
+Vector 110 provides a short ring back, so the customer knows that he/she has made a connection.
+
+As the call moves through vector processing, the call is queued to skill 32, the Customer Service skill.
+
+If a Customer Service representative is available in skill 32, the call is delivered to the available agent.
+
+If an agent is not available, the call is queued and waits in queue while in step 3, announcement 30032 plays.
+
+After 30 seconds, if an agent is still not available, the caller receives the second announcement, announcement 30033, on step 5. At step 6, play music for 60 seconds and then, play the second announcement again, music for 60 seconds again,
+on this loop until an agent becomes available.
+
+### Module Summary
+You have learned that Communication Manager controls functions such as ACD distribution, hunt groups, splits and skills, and vectors for routing calls in the call center.
+
+
+**************************************************************
+
+## Module 03 Feature Activation
+
+- Module Objectives
+- Accessing Communication Manager
+- Accessing SMGR and CM through SMGR
+- Accessing SMGR and CM through SMGR -Demo
+- Call Center Elite Licensed Features
+- Checking if EAS is Enabled
+- Checking if EAS is Enable Demo
+- Call Center System-Wide Features
+- How to Active EAS at System-Parameters Features
+- How to Active EAS at System-Parameters Features Demo
+
+
+
+### Module Objectives
+At the end of this module, you should be able to:
+
+    Describe accessing Avaya Aura® Communication Manager administration from System Manager,
+    Identify licensed features that are activated for Avaya Aura Call Center Elite,
+    Identify how system-wide features are activated for Avaya Aura Call Center Elite and enable the Expert Agent Selection feature.
+
+
+### Accessing Communication Manager
+The common thread running through all of the call center packages is the Communication Manager.
+Although Communication Manager can still be managed with Avaya Site Administration (ASA), or the system access terminal (SAT) command line interface, or other utilities, the recommended way to manage Communication Manager in Avaya Aura® 8.0 is through System Manager.
+
+
+### Accessing SMGR and CM through SMGR
+You will learn how to access SMGR and access CM through SMGR.
+Click the Next button to view the demonstration.
+
+
+### Call Center Elite Licensed Features
+Now, let´s talk about Call Center Elite Licensed Features.
+
+In order to configure a call center we must verify if we have the proper license and features activated.
+
+Features for many licensed software applications that run inside the Communication Manager are listed on the System Parameters Customer-Options form. In most cases, these features will be activated before the call center administration is started.
+
+### Checking if EAS is Enabled
+You will learn how to check if Expert Agent Selection or EAS and other ACD features are enabled at System Parameters - Customer Options form.
+Click the Next button to view the demonstration.
+
+
+### Call Center System-Wide Features
+Now, let´s take a look at Call Center System-wide Features.
+
+The System Parameters Features forms are used to make changes to the settings that control how features operate system-wide. Licensed features activate a series of system-wide features.
+
+Some examples of feature-related system-parameters are call center system parameters and service observing.
+
+### How to Activate EAS at System-Parameters Features
+You will learn how to activate EAS at System-Parameters Features and other Call Center Elite Features at System-Parameters Features form.
+Click the Next button to view the demonstration.
+
+
+### Module Summary
+You have learned that:
+
+    Before a call center can be configured, the system must be properly licensed. Call Center Elite is a licensed software inside Avaya Communication Manager.
+    Users can display the System-Parameters Customer-Options form to verify that licensed features are activated.
+    Call Center settings are set on the System Parameters–Features form.
+
+
+
+**************************************************************
+
+## Module 04 Dialing Features
+
+- Module Objectives
+- Dial Plan Analysis Table Introduction
+- Checking Dialplan Analysis
+- Checking Dialplan Analysis Demo
+- Feature Access Codes Introduction
+- Administering Feature Access Codes
+- Administering Feature Access Codes Demo
+- Abbreviated Dialing Introduction 
+- Working with Abbreviated Dialing System
+- Working with Abbreviated Dialing System Demo
+- Module Summary
+
+
+### Module Objectives
+At the end of this module, you should be able to:
+
+    Describe dialing features, including the dialing plan in Avaya Aura® Call Center Elite
+    and
+    Describe how to use feature access codes and abbreviations on the dialing list for Call Center activities.
+
+### Dial Plan Analysis Table Introduction
+First, let´s learn about Dian Plan Analysis. The dial plan analysis table provides information to Communication Manager on what to do with dialed digits.
+
+A table defines the intended use of a code beginning with a specific first digit or pair of digits. These digits tell the system how many digits to collect before processing the full digit string.
+
+For example, the dial plan may indicate that all internal extensions are 4-digit numbers that start with 1 or 2.
+There are additional considerations before configuring a dial plan; you must know your extensions including VDNs, hunt groups, announcements, agent logins, and stations.
+
+You should know how long your extensions will be and what number they will start with. You must also define your feature access codes.
+
+
+### Checking Dialplan Analysis
+You will learn about Dialplan Analysis form.
+Click the Next button to view the demonstration.
+
+
+### Feature Access Codes Introduction
+Feature access codes or FAC provide users with quick access to certain features of the Avaya Aura® Communication Manager.
+
+When a feature access code is assigned to a feature, users can dial a code to activate a feature rather than using a button on the desk phone.
+
+Feature access codes can contain 1 to 4 characters that can be all digits or a combination of digits and either an asterisk or a pound sign.
+
+Note that an asterisk or pound sign can be used, but only as the first character in the feature access code.
+
+Feature access codes must conform to the dial plan and must be unique.
+
+Note that Call Center features are commonly assigned to buttons on agent desk phones.Some features can be assigned directly to buttons using a specific button type; other features use feature access codes in conjunction with abbreviated dialing.
+
+
+### Administering Feature Access Codes
+You will learn about Feature Access Codes and how to assign agent call handling Feature Access Codes.
+Click the Next button to view the demonstration.
+
+### Abbreviated Dialing Introduction
+Let´s learn about Abbreviated Dialing.
+In a call center environment, the abbreviated dialing lists are often used as a shortcut to assign the Call Center features to work buttons on agent stations.
+
+For example, they can be used to create login and logout feature buttons on agents handsets.
+Instead of dialing the entire number, users dial a short code to access the number, and then the system dials the stored number automatically.
+
+Each entry on an abbreviated dialing list can have as many as 24 characters.
+
+There are four types of abbreviated dialing lists:
+
+    Personal – for users who need their own set of stored numbers,
+    Group – assigned to groups who frequently dial the same numbers,
+    System – defined for the entire organization
+    Enhanced – for users who need more list entries than the number allowed in group or system lists.
+
+Note that the 96X1 SIP agent desk phones support Agent login and logout buttons instead of Feature Access Codes or FAC. The phone shifts the button for login to logout after the agent logs on to the system.
+
+
+
+### Working with Abbreviated Dialing System
+You will be working with Abbreviated Dialing System to create login and logout.
+Click the Next button to view the demonstration.
+
+
+### Module Summary
+You have learned to:
+
+    Plan and define the dial plan before configuring specific feature access codes and extensions,
+    Use feature access codes to allow agents to activate and deactivate features from their telephones, such as login and logout, auto-in and other agent features
+    Use abbreviated dialing to enable feature buttons for logging agents in and out of the system, and setting up speed dialing lists.
+
+
+**************************************************************
+
+
+## Module 05 Calling Permissions and Restrictions
+
+- Module Objectives
+- Calliing Permissions and Restrictions
+- Class of Service
+- Class of Service Demo
+- Class of Restriction
+- Class of Restriction Demo
+- Module Summary
+
+
+
+### Module Objective
+At the end of this module, you should be able to:
+
+    Describe the methods for assigning user calling permissions and restrictions.
+
+### Calling Permissions and Restrictions
+Now let´s talk about calling permissions and restrictions.
+Avaya Aura® Communication Manager software provides flexibility for defining the features and functions to which users are allowed access. The wide range of Communication Manager features can be administered differently from one user to the next.
+
+    Users can be assigned access based on what they need to do for their specific job or
+    One user can be assigned a certain set of telephone buttons and another user a completely different set.
+
+Communication Manager uses two distinct options for defining permissions and restrictions for dialing features and calling privileges:
+
+    Class of Service and Class of Restriction.
+
+
+### Class of Service
+Class of Service, or COS, are collections of feature access permissions. 
+A COS assignment defines which features and functions a telephone user can access and up to 16 different classes of service can be defined with different combinations of feature access permissions. 
+Classes of service are numbered 0 to 15 and more classes of service groups are available (up to 100) when tenant partitioning is enabled.
+
+A Class of Service is assigned to a station, defines the allowed features for the station user and used to assign permissions for call processing features that require a dial code or feature button access.
+
+### Class of Service (continued)
+You will learn about the Class of Service form and how to activate features to a Class of Service.
+Click the Next button to view the demonstration.
+
+### Class of Restriction
+Class of Restriction or COR is another mechanism for assigning collections of capabilities.
+
+    A COR assignment restricts users from originating or terminating certain types of calls;
+    The system may use one COR or as many as necessary (up to 995) to control calling privileges and
+    Apply administration settings to all objects that share the same COR number.
+
+
+Class of Restriction can be used to restrict communication between point A and point B, for example:
+
+    A user tries to establish a communication path between point A and point B.
+    and
+    The system checks whether the CORs have permission to communicate with one another.
+
+
+Class of Restriction must be assigned to:
+Agent login IDs,
+Access endpoints,
+Supervisor station,
+Announcements and audio sources,
+Hunt groups,
+Vector directory numbers or VDN, and
+Trunk groups.
+
+
+### Class of Restrictions
+You will learn about Class of Restrictions and identify Call Center features administered at Class of Restrictions.
+Click the Next button to view the demonstration.
+
+### Module Summary
+You have learned that:
+
+    The Class of Service or COS assignment defines which features and functions a telephone user can access;
+    The Class of Restriction or COR assignment restricts users from originating or terminating certain types of calls;
+    COR can restrict calls from one COR to another; and
+    COR determines if a user can be a service observer and if a user can be service observed.
+
+
+
+
+
+
+
+**************************************************************
+
+## Module 06 Hunt Groups, Splits and Skills
+
+- Module Objectives
+- Hunt Groups, Splits and Skills
+- Adding Hunt Groups
+- Adding Hunt Groups Demo
+- MOdule Summary
+
+### Module Objectives
+At the end of this module, you should be able to:
+
+    Describe the properties of hunt groups, splits and skills for agents and
+    Describe the options for administering hunt groups.
+
+
+
+### Hunt Groups, Splits, and Skills
+A hunt group is a group of extensions that receive calls according to the chosen call distribution method. When a call comes into the call center on a certain telephone number, the goal is for the system to connect the call to an extension in the group.
+
+Depending on how the call center is designed, that could happen in a few different ways.
+With the simplest type of call center, the customer’s call would be directed from the incoming trunk to a specific group of physical phones called a hunt group.
+
+Agents use feature access codes to make their extension available and unavailable for calls. A delay announcement can be assigned to the hunt group to play while the customer waits for an available agent.
+
+
+When the call vectoring feature is used, the group is called a “split,” but it is still a group of physical extensions.
+Agents can log-in up to four splits using the login feature access code and split numbers.
+
+With vectoring, a lot of additional options are available for routing the call and for the treatment that callers receive along the way.
+In the vector, calls can be queued up to three splits.
+
+
+Finally, with Expert Agent Selection or EAS, the hunt group or split becomes a skill, and there are no physical extensions assigned to a skill.
+Instead, skills are assigned to agent login IDs.
+
+When an EAS agent logs in, the system recognizes the types of calls this agent is qualified to handle from the skills assigned to the agent’s login ID.
+
+The Expert Agent Selection feature also opens up many new options for distributing calls efficiently and for matching caller needs to the best agent to answer the call.
+
+The hunt group form is used to administer a skill, so for our discussion, we’re going to explain the fields on this form and how those options interact with the Call Center Elite.
+
+
+### Adding Hunt Groups
+You will learn about Hunt Group and understand the most important features and fields.
+Click the Next button to view the demonstration. 
+
+
+
+**************************************************************
+
+## Module 07 Expert Agent Selection, Call Routing and Distribution
+
+- Module Objectives
+- EAS Fundamentals - Business and Customer Needs
+- Matching Caller Needs to Agents
+- Expert Agent Selection - Basic Components
+- Expert Agent Selection - More Agents Than Calls
+- Expert Agent Selection - More Calls Than Agents
+- Agent Login ID
+- Adding Agent Login ID and Duplicating Agents
+- Adding Agent Login ID and Duplicating Agents Demo
+- Manage Endpoints or Adding Stations
+- Manage Endpoints or Adding Stations Demo
+- Module Summary
+
+
+**************************************************************
+
+## Module 08 Announcements
+
+- Module Objectives
+- Recorded Announcements
+- Avaya Aura Media Server
+- Recording Announcements
+- Recording Announcements - First Method
+- Recording Announcements - Second Method
+- Moving Announcements
+- Creating Announcements Demo
+- Module Summary
+
+
+**************************************************************
+
+## Module 09 Vector Directory Numbers
+
+- Module Objectives
+- Vector Directory Numbers
+- Adding VDNs
+- Adding VDNs Demo
+- Module Summary
+
+
+**************************************************************
+
+## Module 10 Call Flows and Vectors
+
+- Module Objectives
+- Call Vectoring Introduction
+- Call Flow
+- Call Vectoring Commands
+- Understanding and Design Call Vectors
+- Understanding and Design Call Vectors Demo
+- Discussing Call Vector in Real Use Cases
+- Discussing Call Vector in Real Use Cases Demo
+- Module Summary
+
+
+**************************************************************
+
+## Module 11 Test and Troubleshoot for Call Vectors
+
+- Module Ojbectives
+- Test and Trouleshoot for Call Vectors
+- Testing and Troulbeshooting your vector
+- Testing and Troulbeshooting your vector Demo
+- Module Summary
+
+- Course Summary
+- Now you are here
+- Goodbye
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
