@@ -519,6 +519,13 @@ You will learn about Hunt Group and understand the most important features and f
 Click the Next button to view the demonstration. 
 
 
+### Module Summary
+You have learned that:
+A hunt group is a group of extensions that receive calls according to the chosen call distribution method;
+When the call vectoring feature is used, the group is called a “split,” but it is still a group of physical extensions and
+when Expert Agent Selection is used, the hunt group or split becomes a skill, and there are no physical extensions assigned to a skill.
+
+
 
 **************************************************************
 
@@ -536,6 +543,135 @@ Click the Next button to view the demonstration.
 - Manage Endpoints or Adding Stations
 - Manage Endpoints or Adding Stations Demo
 - Module Summary
+
+
+
+### Module Objectives
+At the end of this module, you should be able to:
+Explain the options for distributing calls to the right agents and
+describe how to add agent login IDs and stations or manage endpoints.
+
+
+
+### EAS Fundamentals – Business and Customer Needs
+Expert Agent Selection (EAS) is a skill-based routing feature that reduces the call transfer and call holding time by matching caller needs with agent skills. 
+
+For example, does the business want to decrease costs or improve satisfaction levels of their customers? Is it more important to the call center that customers be answered quickly or to be answered by the best, most-skilled agent to address his or her need? 
+
+In this module, we’ll discuss the call selection, call handling preference and call distribution options offered by Expert Agent Selection.
+
+### Matching Caller Needs to Agents
+Expert Agent Selection matches caller needs with the proper agent to answer the call.
+Defining the customer’s expectations and then designing the required skills and routing to meet those expectations creates an efficient call center and satisfied customers.
+
+Skills are administered as either *Expert Agent Distribution* or EAD, which means that the agent will have various levels of expertise in this skill, or as *Uniform Call Distribution*, which means that any agent with this skill can answer the call.
+
+Let’s trace the progress of a caller and see how the system determines which agent should handle the call. 
+### Matching Caller Needs to Agents
+
+Caller 3’s question is a request for general information, and almost all the agents in the call center are assigned this skill and are able to quickly and effectively service this type of call.
+
+When the call enters the system on a trunk, it’s sent to a vector directory number.
+VDNs point to vectors, so the call moves into vector processing and is queued to the proper skill.
+
+Since Caller 3 and other callers for general information have expressed the desire to be answered as quickly as possible, the group type for this skill is administered to deliver calls to agents as quickly as possible.
+
+Since everyone has the same level of expertise, Uniform Call Distribution is fine. If more than one agent for this skill is available, the call will be routed to the most idle agent or the least occupied agent with any experience level for this skill.
+
+### Matching Caller Needs to Agents (continued)
+When Caller 1 calls, she wants to talk to the most expert agent, so the skill group type would logically be Expert Agent Distribution.
+
+If more than one agent is available for this skill, the system chooses the most idle or least occupied agent with the highest skill level to answer the call.
+
+When there are no agents available and more than one call waiting, when an agent does become available, the system looks at the agent’s login ID to see which call to send.
+
+An agent, whose Call Handling Preference in the agent login ID is administered as Greatest Need will get the oldest call waiting for any of the skills assigned to the login ID.
+
+If the Call Handling Preference in the agent login ID is administered as Skill Level, he or she will get the oldest call waiting for the highest administered skill level on the agent login ID form. 
+
+### Expert Agent Selection – Basic Components
+Let´s take a look at how Expert Agent Selection components and features can be used to customize call center operations.
+
+When the system is designed, skills are defined as “why customers call the center.” Those reasons or call types are then logically divided into the skills required to address those calls.
+
+Another thing to consider is how many agents will be needed to handle calls to this skill and whether there may be a need for reserve agents.
+Determine which agents have been trained in each skill and what level of expertise they possess.
+
+Create the agent login IDs and assign the proper Class of Restriction to make sure agents can originate and terminate calls to other CORs, that direct agent calling is allowed if needed, and that service observing is set appropriately.
+
+Administer the call handling preference and skills numbers and skill levels to agent login IDs.
+Assign a Direct Agent skill (as required).
+Create vector directory numbers – and point to a vector for processing.
+Configure Announcements.
+
+Program vectors – the vectors essentially define the call flow. Vectoring commands provide a wide range of capabilities, from a very simple vector to queue a call and provide announcements, to a complex vector that checks the availability of resources across multiple locations. 
+ 
+
+
+
+
+### Expert Agent Selection – Basic Components
+Let´s take a look at how Expert Agent Selection components and features can be used to customize call center operations.
+
+When the system is designed, skills are defined as “why customers call the center.” Those reasons or call types are then logically divided into the skills required to address those calls.
+
+Another thing to consider is how many agents will be needed to handle calls to this skill and whether there may be a need for reserve agents.
+Determine which agents have been trained in each skill and what level of expertise they possess.
+
+Create the agent login IDs and assign the proper Class of Restriction to make sure agents can originate and terminate calls to other CORs, that direct agent calling is allowed if needed, and that service observing is set appropriately.
+
+Administer the call handling preference and skills numbers and skill levels to agent login IDs.
+Assign a Direct Agent skill (as required).
+Create vector directory numbers – and point to a vector for processing.
+Configure Announcements.
+
+Program vectors – the vectors essentially define the call flow. Vectoring commands provide a wide range of capabilities, from a very simple vector to queue a call and provide announcements, to a complex vector that checks the availability of resources across multiple locations. 
+
+
+### Expert Agent Selection – More Agents Than Calls
+What happens if you have more agents than calls?
+Agent selection methods are used when there is more than one available agent for an incoming call. This is known as an agent surplus condition.
+
+This is administered on the hunt group form as the Group Type for the skill.
+
+There are many available group types – we use these in our configuration. Group Types can be:
+circ – or Circular hunt group type that is not allowed when ACD, Queue, or Vector is set to yes;
+ddc – or Direct Department Calling, sometimes called an in-line hunt. The call is sent to the first available agent in the administered sequence; if the first agent is busy, the call is sent to second agent in the sequence, and so on;
+ucd-mia – or Uniform Call Distribution – Most Idle Agent selects the agent who has been available the longest;
+ucd-loa – or Uniform Call Distribution – Least Occupied Agent selects the agent with the lowest occupancy level;
+ead-mia – or Expert Agent Distribution – Most Idle Agent selects the agent with the highest skill level who has been available the longest;
+ead-loa – or Expert Agent Distribution – Least Occupied Agent selects the agent with the highest skill level who has the lowest agent occupancy;
+slm – or Service Level Maximizer is available only if the Service Level Maximizer feature has been activated in System-Parameters Customer-Options and
+pad – or Percent Allocation Distribution selects the agent with the lowest ratio or adjusted work time and target allocation for the skill.
+
+
+
+### Expert Agent Selection – More Calls Than Agents
+Now, let’s talk about how calls are distributed in a call surplus condition, more Calls than Agents.
+
+Call selection methods are used when calls are waiting in queue, and an agent becomes available.
+
+When an agent becomes available,
+Communication Manager checks the call handling preference administered on the Agent Login ID form and skills assigned to the agent to determine which skill to serve. 
+
+### Agent Login ID
+Agent login IDs are extensions in the dial plan and are not administered as members of hunt groups or splits. Skills are assigned to the agent’s login ID.
+
+When an agent logs on, Communication Manager associates the physical phone with all of the skills that are assigned to the agent’s login ID.
+
+You can assign up to 120 skills to each agent.
+The number of concurrently logged-in ACD SIP agents is increased from 5,000 to 10,000.
+
+The agent ID is extended to 16-digit extensions for those global markets where the full E.164 number is 14 to 15 digits.
+
+Note that SIPCC firmware must support 16-digit extensions before you can use a 16-digit agent extension or a 16-digit extension for the 96x1 phone. 
+
+
+### Adding Agent Login ID and Duplicating Agents
+You will learn how to add Agent Login ID and how to duplicate Agents Login ID. 
+Click the Next button to view the demonstration.
+
+
 
 
 **************************************************************

@@ -111,3 +111,60 @@ http://www.justep.com/wex5/
 
 
 
+
+
+https://pytorch-cn.readthedocs.io/zh/latest/package_references/torch-optim/
+https://blog.csdn.net/taojiea1014/article/details/80653286
+
+
+https://imageoptim.com/mac
+
+
+********************************************************************************************************
+BRI PRI ISDN
+https://searchnetworking.techtarget.com.cn/12-16465/
+
+https://www.cisco.com/c/zh_cn/support/docs/dial-access/integrated-services-digital-networks-isdn-channel-associated-signaling-cas/10227-isdn-australia.pdf
+
+
+https://blog.csdn.net/zzfcnc/article/details/7241713
+https://www.cnblogs.com/fanweisheng/p/11168492.html
+
+https://www.asklib.com/view/34d1230ce433.html
+
+
+
+
+http://www.differencebetween.net/technology/communication-technology/difference-between-isdn-bri-and-pri/
+
+
+
+
+https://www.txrjy.com/thread-23359-1-1.html
+
+
+
+
+
+https://www.tpg.com.au/business-products/voice/isdn-pri-bri
+
+
+
+
+----------------------------------------
+
+ITU , IEEE
+
+
+
+
+
+CM: How to create OPTIM stations / trunks
+https://support.avaya.com/ext/index?page=content&id=SOLN127231
+
+
+System Manager: OPTIM user creation
+https://support.avaya.com/ext/index?page=content&id=SOLN238914
+
+
+
