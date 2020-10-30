@@ -146,5 +146,50 @@ https://mbd.baidu.com/newspage/data/landingsuper?context=%7B%22nid%22%3A%22news_
 
 
 
+**************************************
+
+https://html.spec.whatwg.org/dev/scripting.html#attr-script-type
+https://whatwg-cn.github.io/html/multipage/
+
+
+
+https://code.sololearn.com/W5hBnt5m99tZ/?ref=app#html
+
+
+
+
+https://blog.csdn.net/hotdust/article/details/78541310
+
+https://www.cnblogs.com/multhree/p/11324790.html
+https://www.cnblogs.com/guxin/p/github-cannot-push-files-larger-than-100mb.html
+
+
+https://stackoverflow.com/questions/12214746/find-a-commit-on-github-given-the-commit-hash/44273885#44273885
+
+
+
+
+
+
+
+https://passwords.google.com/checkup/results?ep=2&rvt=JbKyQZ07SaxYnR9aBK0Q3sXaPOA:1603939111602&continue=https://myaccount.google.com/security-checkup/6?rfn%3D31%26rfnc%3D1%26et%3D2%26pli%3D1%26continue%3Dhttps%253A%252F%252Fmyaccount.google.com%252Fsecurity%253Fauthuser%253D0&rapt=AEjHL4OWVaKjZQ7Mndyr5TxJ_UMTBGkWTqyBij4FHJvrdvTNE-dfnTiOjL5wT46epxIbjMU6WDukBMni9ym1M8FzpYJ72ZbquA
+
+
+
+
+
+https://developer.github.com/v3/
+
+
+
+https://blog.csdn.net/hotdust/article/details/78541310
+
+
+
+
+
+https://blog.csdn.net/neuldp/article/details/51883528#reset%E5%91%BD%E4%BB%A4%E6%9C%893%E7%A7%8D%E6%96%B9%E5%BC%8F
+
+
 
 
