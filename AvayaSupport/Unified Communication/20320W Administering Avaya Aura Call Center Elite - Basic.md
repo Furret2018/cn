@@ -607,9 +607,6 @@ Configure Announcements.
 Program vectors – the vectors essentially define the call flow. Vectoring commands provide a wide range of capabilities, from a very simple vector to queue a call and provide announcements, to a complex vector that checks the availability of resources across multiple locations. 
  
 
-
-
-
 ### Expert Agent Selection – Basic Components
 Let´s take a look at how Expert Agent Selection components and features can be used to customize call center operations.
 
@@ -689,6 +686,104 @@ Click the Next button to view the demonstration.
 - Module Summary
 
 
+### Module Objective
+At the end of this module, you should be able to:
+Describe the purpose and configuration of Announcements, including announcements on Avaya Aura® Media Server.
+
+### Recorded Announcements
+Let´s talk about recorded announcements.
+An important aspect of a call center are the announcements that provide information to callers.
+
+- Delay announcements explain the reason for the delay and encourage the caller to wait;
+- Forced announcements explain an emergency or service problem;
+- Information announcements give the caller information and/or instructions on how to proceed.
+
+Communication Manager supports announcement sources that are either integrated or external.
+Internal announcements or integrated, reside on a circuit pack in the carrier. External announcements are stored on a separate piece of equipment.
+
+Announcements can be assigned to Vectors and to VDN of Origin Announcements or VOA.
+
+Announcements can include the following types:
+Analog, that:
+Requires external announcement machine.
+Interfaces using analog port line.
+Ringing starts playback.
+Plays for a set period of time.
+
+DS1, that:
+Requires external announcement machine.
+Interfaces using DS1 port line
+Ringing starts playback.
+Playback active until "on hook"
+
+And Auxiliary trunk that:
+Requires external announcement machine.
+Interfaces using a 4-wire line.
+Ringing starts playback.
+
+
+### Avaya Aura® Media Server
+Avaya Aura Release 7 introduced a new, all-software Media Server as an alternative to Media Gateways with higher system capabilities to facilitate consolidating sites.
+
+The Avaya Aura Media Server, also known as AAMS or AMS, is a software-based, IP media application platform that is being introduced as a replacement or an alternative to a Media Gateways. 
+The Media Server will provide the announcements.
+
+
+### Recording Announcements
+Recording announcements can be carried out using two different methods: creating an announcement outside of Communication Manager or directly recording your announcement from a station on your system. 
+
+### Recording Announcements – First Method
+For the First Method 
+Create an announcement as a wave file, through a computer using a microphone and a sound recording program or dedicated recording equipment; then import that file (as .wav file) into the announcement storage location (Media server, Voice Announcement over LAN (VAL) board or Media Gateway (Virtual VAL or vVAL).
+
+This method allows potentially the best quality as you are able to create professionally recorded announcements.
+
+### Recording Announcements – Second Method
+The Second Method is to directly record your announcement from a station on your system.
+
+You will need to ensure that you have an *Announcement Access Code* defined in your *Feature Access Codes* table and you must also be dialing from a station with Console Permissions enabled in its COS.
+
+This helps to prevent unauthorized users from rerecording or removing announcements.
+The Recording Steps are: 
+
+1. Dial the *Announcement Access FAC*, 
+2. dial the announcement extension number; 
+3. when you hear a dial tone, dial 1 to begin recording 
+4. when you have finished your announcement, dial # to end the recording.
+
+You can listen to an announcement simply by dialing its announcement number.
+
+
+After recording a new announcement, it can take up to 10 seconds before the announcement is available to play back.
+
+If you need to remove announcements, the
+steps are: dial the Announcement Access FAC, then dial the announcement extension number; when you hear dial tone, dial 3 to remove the announcement. You will hear 3 confirmation beeps.
+
+These steps will only remove the announcement recording, the announcement extension will remain in the system.
+
+
+### Moving Announcements
+If you want to move announcements to the desired location, we must enable file transfer. Under Communication Manager, Element Cut-Through, type enable filexfer.
+
+Fill in your passwords. You can use any combination you like within the guidelines.
+If the customer has ftp blocked, you must use sftp and hence secure y(es); otherwise you can use n(o).
+
+Fill the announcement board address. Click Enter, then you have enabled Communication Manager to receive files and you are ready to move announcements.
+
+
+### Creating Announcements
+You will learn how to administer Announcements.
+Click the Next button to view the demonstration.
+
+
+### Module Summary
+You have learned that 
+
+- An important aspect of a call center is the announcement that provides information to callers.
+- *Delay announcements* explain the reason for the delay and encourage the caller to wait.
+- *Forced announcements* explain an emergency or service problem.
+- *Information announcements* give the caller information and/or instructions on how to proceed.
+
 **************************************************************
 
 ## Module 09 Vector Directory Numbers
@@ -698,6 +793,30 @@ Click the Next button to view the demonstration.
 - Adding VDNs
 - Adding VDNs Demo
 - Module Summary
+
+
+### Module Objective
+At the end of this module, you should be able to:
+
+- Describe the purpose of vector directory numbers.
+
+
+### Vector Directory Numbers
+A vector directory number or VDN is an extension that directs an incoming call to a destination, be it a specific vector or a policy routing table. This number is a soft extension number. VDNs must follow the dial plan.
+
+Vectors provide the step-by-step directions regarding what the caller will hear, and where the caller will be routed.
+
+The VDN number is extended to 16-digit extensions for those global markets where the full E.164 number is 14 to 15 digits.
+
+### Adding VDNs
+You will learn how to administer vector directory numbers or VDNs.
+Click the Next button to view the demonstration.
+
+### Module Summary
+You have learned that
+A VDN directs an incoming call to a specific vector,
+It is a soft extension number which is not assigned to an equipment location 
+And must follow the dial plan.
 
 
 **************************************************************
@@ -715,6 +834,117 @@ Click the Next button to view the demonstration.
 - Module Summary
 
 
+### Module Objective
+At the end of this module, you should be able to:
+
+- Describe call flows and call vectors and explain the purpose of basic vectoring commands.
+
+### Call Vectoring Introduction
+
+Call Vectoring is a series of commands that tell the system how to handle incoming calls, route calls to on-network or off-network destinations, agents, recorded announcements, self-service applications,
+voice mail systems, and computer telephony integration CTI applications using an Adjunct Switch Application Interface.
+
+Vectors can contain up to 99 steps, be linked together and be customized to personalize call routing and call treatment.
+
+Vector names can have up to 27 characters. 
+
+With Call Vectoring, each call is unique and the call treatment is based on a number of factors, for example, the number that the caller dials, Dialed Number Identification System or DNIS; the number that the caller calls from, Automatic Number Identification or ANI; or the number of calls in queue, the time of the day, and the day of the week.
+
+
+> Let’s say that a customer has reached a preferred customer status with the company. One of the benefits of being a preferred customer is a special number that is routed ahead of the non-preferred customers.
+
+> When the customer dials the preferred customer number, the DNIS is recognized by the system and routed to the appropriate VDN and vector to provide the priority queuing.
+
+> When the agent receives the call, the VDN identifies the caller as a preferred customer.
+
+
+
+Calls enter a vector and execute the steps sequentially beginning with Step 1 – unless step 1 is a goto step.
+Most of the vector steps take microseconds to execute. Announcement, wait time, and collect digits steps are exceptions.
+
+Vector processing skips empty steps and stops after the execution of the last step.
+One vector can direct the call to another VDN that routes it to another vector – this can continue up to a maximum of 10,000 (ten-thousand) vector steps per call.
+
+In the example vector 110, the wait-time is defined as 2 seconds to ensure that the call is connected. The call is queued to skill 32. The announcement 30032 is played “Thank you for calling…”.
+
+After another wait time of 60 seconds, the announcement 30033 is played with “All of our representatives are helping other callers…”.
+
+The last step, step 6 has a repeat loop so that customers hear the announcement every 60 seconds.
+
+### Call Flow
+A good practice to start work with vector is to design the call flow first. This can help you understand the “big picture”, before you go to vector program.
+
+For example, here a call flow for a sales vector is displayed, supporting callers who have selected Sales from the main menu.
+
+
+### Call Vectoring Commands
+Vectors are created using commands and conditionals. **Basic commands** are:
+
+- Announcement
+- Wait-time
+- Busy
+- Disconnect
+- Converse
+- Queue to
+- Check
+
+- Messaging
+- Route to
+- Adjunct route
+- Go to
+- Return
+- Set
+- Stop
+
+You will understand these commands in our demonstrations later.
+
+
+Remember, Vectors are created using commands and conditionals. **Basic conditionals** are:
+
+- Available-agents
+- Calls-queued
+- Expected-wait
+- Oldest-call-wait
+- Rolling-asa
+- Staffed-agents
+- Wait-improved
+- Unconditionally
+
+You will understand these conditionals in our demonstrations later.
+
+
+**Call treatments** provide: Audible feedback that can be:
+
+- Silence,
+- Ring back,
+- System music,
+- an alternative audio or music source,
+- Busy tone.
+- And Announcements and Voice messaging.
+
+
+### Understanding and Design Call Vectors
+You will learn how to build a very simple vector.
+Click the Next button to view the demonstration.
+
+
+
+### Discussing Call Vector in Real Use Cases
+Now, you will learn to identify how to apply vectors in some use cases; understand the vector commands and conditionals and play with 9 different vectors.
+Click the Next button to view the demonstration. 
+
+
+### Discussing Call Vector in Real Use Cases
+Now, you will learn to identify how to apply vectors in some use cases; understand the vector commands and conditionals and play with 9 different vectors.
+Click the Next button to view the demonstration. 
+
+
+### Module Summary
+You have learned that
+
+- vectors are created using commands and conditionals and
+- call treatments provide callers with audible feedback such as ring back, music, announcements and voice mail options.
+
 **************************************************************
 
 ## Module 11 Test and Troubleshoot for Call Vectors
@@ -730,28 +960,67 @@ Click the Next button to view the demonstration.
 - Goodbye
 
 
+### Module Objective
+At the end of this module, you should be able to:
+
+- Understand how to test and troubleshoot call vectors.
 
 
 
+### Test and Troubleshoot for Call Vectors
+
+To test and troubleshoot Call Vectors, you can use *list trace* command to troubleshoot different problems that could occur in a Call Center.
+
+- For vectors, use *list trace vector n*, where n is the vector number.
+- For VDNs, use *list trace VDN n*, where n is the VDN extension number.
+- use *display events* report to diagnose and correct problems with vector steps.
 
 
 
+### Testing and Troubleshooting your Vector
+You will learn how to use the list trace command and how to use the display event report.
+Click the Next button to view the demonstration. 
+
+
+### Module Summary
+You have learned that 
+
+- List trace command helps to troubleshoot different problems that could occur in Call Center
+- Display events report helps to diagnose and correct problems with vector steps.
 
 
 
+### Course Summary
+In this training you have learned to:
+
+- Describe the features and capabilities of Avaya Aura® Call Center Elite.
+- Identify how features are activated for Avaya Aura Call Center Elite.
+- Describe dialing features, including the dialingplan.
+- Describe feature access codes and abbreviations on the dialing list.
+- Describe methods for assigning user calling permissions and restrictions.
+- Describe the properties of hunt groups, splits, and skills for agents.
+
+- Create multiple hunt groups with the features required for them to function correctly.
+- Explain the options for distributing calls to the right agents.
+- Describe how to add agent login IDs and stations/manage endpoints.
+- Describe the purpose and configuration of Announcements.
+- Describe call flows and call vectors and explain the purpose of basic vectoring commands.
+- Discuss application of call vector in use cases and samples and how to test and troubleshoot call vectors.
 
 
 
+### Now you are here
+Congratulations! You have completed the 20320W, Administering Avaya Aura® Call Center Elite – Basic training.
+
+If you feel you are ready to take the next step, you can enroll in the post-course exam. Go to https://www.avaya-learning.com/ for more information.
 
 
+### Goodbye
+Avaya Learning Services can help your team get the skills they need to unlock the full value of Avaya technology, transforming features and functions into complete communication solutions.
 
+Visit us at www.avaya.com/learning for more information about our offers and Professional Credential Program, or contact us directly at one of our global numbers at www.avaya.com/learning-support.
 
-
-
-
-
-
-
+I wish you the best of success. Good bye and hope to see you again in the next training!!
 
 
 
