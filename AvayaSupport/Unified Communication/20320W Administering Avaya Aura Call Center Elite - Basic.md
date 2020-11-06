@@ -448,7 +448,7 @@ Access endpoints,
 Supervisor station,
 Announcements and audio sources,
 Hunt groups,
-Vector directory numbers or VDN, and
+Vector directory numbers or VDN
 Trunk groups.
 
 
@@ -804,7 +804,7 @@ At the end of this module, you should be able to:
 ### Vector Directory Numbers
 A vector directory number or VDN is an extension that directs an incoming call to a destination, be it a specific vector or a policy routing table. This number is a soft extension number. VDNs must follow the dial plan.
 
-Vectors provide the step-by-step directions regarding what the caller will hear, and where the caller will be routed.
+Vectors provide the step-by-step directions regarding what  the caller will hear, and where the caller will be routed.
 
 The VDN number is extended to 16-digit extensions for those global markets where the full E.164 number is 14 to 15 digits.
 
