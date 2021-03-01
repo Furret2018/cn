@@ -1,20 +1,12 @@
-
-
-
-
-ACIS implementation
-
-
-7120X Avaya Aura Core Components Integration
-
-
+# ACIS implementation
+# 7120X Avaya Aura Core Components Integration
 
 #1 The "Single Button Press-Park Pickup" feature, new in Aura 7.x, combines Call Park and Call Pickup functionalities to achieve a better user experience.
 which 3 statements about this feature are correct?
 
-Members can answer parked calls simply by pressing their call-park button.
-A user delegates a call to other team members simply by parking the call.
-With a single button press, users can pick up calls parked by another team member.
+- Members can answer parked calls simply by pressing their call-park button.
+- A user delegates a call to other team members simply by parking the call.
+- With a single button press, users can pick up calls parked by another team member.
 
 #2 Which 2 backup methods are available for Avaya Aura CM through the SMI Web Interface 
 
