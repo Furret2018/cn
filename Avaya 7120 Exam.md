@@ -44,4 +44,13 @@ H323? ISDN?
 #8 If you administer an CM from the Service Port, what must be the IP Address of your Laptop?
 192.11.13.5
 
-#9 You need 
+Q9 You need to enable to digit 8 to be used as the AAR access code.     
+Which SAT command would you use to define the digit 8 as the AAR access code?
+
+- Change feature-access-code
+
+Q10 In Avaya Aura 7.x, where are the listening ports defined to allow SM to listen for User Agent (UA) registrations?
+
+- SIP Entity?
+
+https://www.youtube.com/watch?v=ETxqBN8Klqw Latest Avaya 7120X Practice Test Questions Answers - 7120X Dumps
