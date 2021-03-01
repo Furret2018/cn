@@ -56,3 +56,5 @@ Q10 In Avaya Aura 7.x, where are the listening ports defined to allow SM to list
 https://www.youtube.com/watch?v=ETxqBN8Klqw Latest Avaya 7120X Practice Test Questions Answers - 7120X Dumps
 
 https://www.youtube.com/watch?v=izpvetqZceE 71200X Avaya Aura Core Components Integration Exam Dumps
+
+https://evantage.gilmoreglobal.com/#/books/71200-1909-R81F-E/cfi/501!/4/4@0.00:0.802 Focusonone@2021
