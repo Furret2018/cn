@@ -1,0 +1,107 @@
+https://www.bilibili.com/video/BV1eJ411k7XV/?spm_id_from=333.788.recommend_more_video.16
+https://www.bilibili.com/video/BV1q4411M7r9/?spm_id_from=333.788.recommend_more_video.6
+https://www.bilibili.com/video/BV1TN411d7FL/?spm_id_from=333.788.recommend_more_video.2
+
+
+
+
+amend
+Requires fewer servers and racks which reduces the footprint
+breakdown
+Allows businesses can scale rapidly to accommodate growth and to respond to changing
+business requirements
+
+This document uses the following terms, and at times, uses the terms interchangeably:
+• Server and host
+• Reservations and configuration values
+
+
+in the event that/of  https://www.sohu.com/a/283456913_100010249
+
+
+暴选插泡击
+统计快归希
+
+https://blog.csdn.net/u013249689/article/details/17501939
+https://blog.csdn.net/jeffscott/article/details/100109615
+https://baike.baidu.com/item/%E8%BF%90%E7%AE%97%E7%AC%A6%E4%BC%98%E5%85%88%E7%BA%A7/4752611?fr=aladdin
+https://blog.csdn.net/LiyangBai/article/details/77753841
+
+
+
+https://zhuanlan.zhihu.com/p/110602573
+
+https://zhuanlan.zhihu.com/p/110602573
+
+
+https://blog.csdn.net/qq_42765966/article/details/90483847
+http://www.voidcn.com/article/p-enwbbssn-bhs.html
+
+
+
+
+https://blog.csdn.net/qq_31116753/article/details/84103610
+
+https://www.imooc.com/article/266110
+
+
+https://visualgo.net/en
+
+
+
+https://www.bilibili.com/video/BV1nb411W7vk?p=6
+
+
+
+
+
+
+
+
+
+https://zhuanlan.zhihu.com/p/107918084		原罪西游源码发布！！！
+https://github.com/Furret2018/sdlpal/blob/master/audio.c
+https://blog.csdn.net/flx413/article/details/82533736
+
+
+
+https://blog.csdn.net/leixiaohua1020/article/details/12753723
+https://blog.csdn.net/u011329967/article/details/109891824
+
+
+
+1:39:07
+x = split(sep=":")
+as.numberic(x[1])
+
+
+https://zhuanlan.zhihu.com/p/59795137	sdlpal仙剑源码正式研究（二）
+https://zhuanlan.zhihu.com/p/60136163	sdlpal仙剑源码正式研究（三）
+
+
+https://zhuanlan.zhihu.com/p/62836580	仙剑奇侠传（sdlpal源码）联网研究（一）
+https://zhuanlan.zhihu.com/p/64092225	仙剑奇侠传 源码（sdlpal） 正式研究（五） map.c
+https://blog.csdn.net/flx413/article/details/82533736	【分享】SDLPAL 仙剑奇侠传开源项目编译
+https://www.sohu.com/a/395188709_667928
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
