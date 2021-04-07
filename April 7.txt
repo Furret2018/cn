@@ -6,8 +6,8 @@ Setting up Visual Studio 2019 for Assembly MASM
 https://www.youtube.com/watch?v=2fyoYNFO9XM
 
 
-
-
+VISUAL STUDIO 2019 MASM SETUP
+https://www.youtube.com/watch?v=gcORGExX4Vs
 
 
 
@@ -20,3 +20,9 @@ https://www.youtube.com/watch?v=-fCyvipptZU
 https://www.bilibili.com/video/BV1xs411z7Re
 “ᴰᵒ ʸᵒᵘ ᴸⁱᵏᵉ ᴿᵃⁱⁿ” “ᴵ ᴾʳᵉᶠᵉʳ ʸᵒᵘ”
 https://www.bilibili.com/video/BV13E411L7Er
+
+MASM + Microsoft Visual Studio 2015 + Windows 10 + First MASM Project + Kip Irvine Libraries
+https://www.youtube.com/watch?v=9e1ER2o83N0
+
+Install Windows for PCs over the network | NETVN
+https://www.youtube.com/watch?v=sb3yU2L5U7Y
