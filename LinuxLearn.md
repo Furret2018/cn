@@ -135,3 +135,32 @@ https://zhidao.baidu.com/question/457833941425423965.html?qbl=relate_question_0&
 
 
 https://github.com/miguelgrinberg
+
+
+
+Linux三剑客
+=========
+
+
+find /var/log -type f -size +10M -exec ls -lh {} \; 2> /dev/null | awk '{ print $NF ": " $5 }' | sort -nk 2,2    
+find /opt     -type f -size +10M -exec ls -lh {} \; 2> /dev/null | awk '{ print $NF ": " $5 }' | sort -nk 2,2      
+
+find /var/log -type f -size +2M -exec ls -lh {} \; 2> /dev/null | awk '{ print $NF ": " $5 }' | sort -nk 2,2
+
+
+==============================================================
+linux /dev/null 中有数据
+https://www.cnblogs.com/10087622blog/p/9358648.html
+
+
+
+
+shell步步进阶--- >/dev/null 2>&1
+https://blog.csdn.net/feeltouch/article/details/46990691
+
+
+https://www.pianshen.com/article/47701570748/
+https://ubuntuqa.com/article/2521.html
+
+https://www.linux.org/threads/overview-of-dev-null.11641/
+
