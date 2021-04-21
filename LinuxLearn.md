@@ -1,19 +1,20 @@
 
-
+Linux Academy Account
 =======================================================
+
+https://app.linuxacademy.com/dashboard
 Username	cloud_user 
 Password	Avaya123
 
+Server List
+===============
 
 liu2171c.mylabserver.com
 liu2172c.mylabserver.com
 
 
 
-https://app.linuxacademy.com/dashboard
-
-
-
+=============================================
 
 
 [liu300@liu2171c ~]$ sudo apt-get install python-virtualenv
@@ -49,67 +50,38 @@ virtualenv: Python script, ASCII text executable
 
 
 
-
+在RedHat下安装git
 ======================================
-安装git
 
-[liu300@liu2171c ~]$ git --version
--bash: git: command not found
+查看git是否安装： git --version
+查看yum管理器是否存在： yum --version
+查看git包的信息： yum info git
 
-
-
-[root@liu2171c ~]# yum --version
-3.4.3
-  Installed: rpm-4.11.3-45.el7.x86_64 at 2020-11-06 19:29
-  Built    : Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla> at 2020-06-02 12:11
-  Committed: Michal Domonkos <mdomonko@redhat.com> at 2020-06-02
-
-  Installed: yum-3.4.3-168.el7.noarch at 2020-11-06 19:30
-  Built    : Red Hat, Inc. <http://bugzilla.redhat.com/bugzilla> at 2020-04-16 06:17
-  Committed: Pavla Kratochvilova <pkratoch@redhat.com> at 2020-04-16
+安装git: sudo yum install git-core     ; 如果没有sudo，那么就切换到root   
+su - root
+yum install git   
 
 
-[root@liu2171c ~]# yum info git
+安装Apache服务器
+====================
+安装 yum install httpd-manual
+开始服务器 systemctl start httpd
+查看httpd进程   ps -ef | grep httpd
+查看httpd服务的状态  systemctl status httpd
+查看当前主机名 hostname
 
-
-[liu300@liu2171c ~]$ sudo yum install git-core
-[sudo] password for liu300:
-liu300 is not in the sudoers file.  This incident will be reported.
-
-
-[liu300@liu2171c ~]$ su - root
-[root@liu2171c ~]# yum install git
-
-
-
-
-
-   32  yum install httpd-manual
-   33  systemctl start httpd
-   34  ps -ef | grep httpd
-   36  hostname
-   43  systemctl status httpd
-
-
-[root@liu2171c icons]# find / -name "httpd.conf"
-/etc/httpd/conf/httpd.conf
-
-
+查找httpd的配置文件 find / -name "httpd.conf"
 配置文件： /etc/httpd/conf/httpd.conf
 配置文件 /etc/httpd/conf.d/welcome.conf 指出了Apache测试页面的存在位置
 Alias /.noindex.html /usr/share/httpd/noindex/index.html
-
 
 将自己的HTML文件放这里： /var/www
 
 
 
-[root@liu2171c noindex]# netstat -anpt
-[root@liu2171c noindex]# ps -ef | grep httpd
+查看TCP连接的程序： netstat -anpt
 
-
-
-
+Linux 教程
 ===============================================
 
 搜索文件命令
