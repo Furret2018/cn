@@ -164,3 +164,87 @@ https://ubuntuqa.com/article/2521.html
 
 https://www.linux.org/threads/overview-of-dev-null.11641/
 
+
+https://www.e-learn.cn/topic/902572
+
+https://forum.lazarus.freepascal.org/
+https://www.cnblogs.com/jijm123/p/10445430.html
+https://kexpedition.com.tw/act/expedition?utm=google1&gclid=Cj0KCQjw4ImEBhDFARIsAGOTMj_yDGDqdTHqyMHr4fjmqYlEzbhiqByb2OS-i8fmcQbKABoufA_jh2saAhFqEALw_wcB#page3
+
+https://www.imooc.com/article/257177
+https://www.imooc.com/article/261718
+
+lazarus
+https://www.163.com/dy/article/FBHH685T0511SIE3.html
+
+https://www.163.com/dy/article/G83NPABJ0511SIE3.html
+https://www.163.com/dy/article/G840RPIB0534MVYE.html
+https://www.imooc.com/article/265707
+
+https://www.group-ib.com/blog/btc_changer
+https://netsecurity.51cto.com/art/202104/658575.htm?pc
+https://www.darkreading.com/north-korean-cyber-ops-reportedly-stole-%242b-to-fund-weapons-programs/d/d-id/1335467?_mc=rss_x_drr_edt_aud_dr_x_x-rss-simple
+https://www.it610.com/article/4665137.htm
+
+
+https://www.lazarus-ide.org/
+
+
+
+4000英语单词六节回顾，你知道individual吗，这个一言难尽的发音
+https://haokan.baidu.com/v?vid=17641598666924531578&pd=bjh&fr=bjhauthor&type=video
+
+
+
+
+
+
+电脑无线和有线同时使用方法
+https://baijiahao.baidu.com/s?id=1553212604433218&wfr=spider&for=pc
+
+
+https://www.cnblogs.com/amanlikethis/p/3666283.html
+
+
+
+
+https://blog.csdn.net/weixin_33696822/article/details/92487382
+https://www.cnblogs.com/pzk7788/p/10151175.html
+
+
+````
+#include <stdio.h>
+
+int len(char* pc)
+{
+	int cnt=0;
+	while(*pc!='\0')
+	{
+		cnt++;							// length+1
+		printf("%c %d\n", *pc, cnt);	// 
+		pc++;							// 
+	}
+	printf("Len: %d\n", cnt);
+	return cnt;
+}
+
+
+int main(int argc, char ** argv)
+{
+	// Encode
+	char c= 'A';
+	//char *t = "Good day";
+	//printf("Len: %d \n", len(t));
+	// rot13
+	for (char* c=argv[1]; *c!='\0'; c++)
+		printf("%c", *c+13);
+	
+	printf("%d \n", c);
+	
+	printf("%c \n", c+32);
+	
+	printf("%s \n", argv[1]);
+	
+	return 0;
+}
+```
