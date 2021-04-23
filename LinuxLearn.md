@@ -212,7 +212,7 @@ https://blog.csdn.net/weixin_33696822/article/details/92487382
 https://www.cnblogs.com/pzk7788/p/10151175.html
 
 
-````
+```C++
 #include <stdio.h>
 
 int len(char* pc)
